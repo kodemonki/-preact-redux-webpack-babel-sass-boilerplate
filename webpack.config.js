@@ -28,5 +28,22 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
   },
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        commons: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all'
+        }
+      }
+    }
+  },
+  resolve: {
+    alias: {
+      'react': 'preact-compat',
+      'react-dom': 'preact-compat'
+    }
+  },
   plugins: [htmlWebpackPlugin]
 };

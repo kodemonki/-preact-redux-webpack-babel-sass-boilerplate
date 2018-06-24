@@ -21,6 +21,8 @@
   "homepage": "https://github.com/kodemonki/react-webpack-babel-sass-boilerplate#readme",
   "dependencies": {
     "history": "^4.7.2",
+    "preact": "^8.2.9",
+    "preact-compat": "^3.18.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-redux": "^5.0.7",

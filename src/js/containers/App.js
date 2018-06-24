@@ -11,7 +11,7 @@ class App extends React.Component {
 
     return <Router>
       <div className="App">
-        <h1>react-redux-webpack-babel-sass-boilerplate</h1>
+        <h1>preact-redux-webpack-babel-sass-boilerplate</h1>
         <Dumb initialised={this.props.initialised}/>
       </div>
     </Router>;
