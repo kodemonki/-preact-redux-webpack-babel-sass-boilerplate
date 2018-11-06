@@ -1,6 +1,8 @@
+/*
 const initialState = {
   initialised: "initialised"
 };
+*/
 
 const dumbReducer = (state = initialState, action) => {
   var newState = Object.assign({}, state);
